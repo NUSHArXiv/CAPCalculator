@@ -1,0 +1,234 @@
+Module Code,MC,Module Name,Year,Semester
+MA1131,3,Y1S1 Math,1,1
+MA1231,2,Y1S1 MO,1,1
+MA1132,3,Y1S2 Math,1,2
+MA1232,2,Y1S2 MO,1,2
+MA1232V,2,Y1S2 MO V,1,2
+MA2131,4,Y2S1 Math,2,1
+MA2231,2,Y2S1 MO,2,1
+MA2231V,2,Y2S1 MO V,2,1
+MA2132,4,Y2S2 Math,2,2
+MA2232,2,Y2S2 MO,2,2
+MA2232V,2,Y2S2 MO V,2,2
+MA3131,4,Y3S1 Math,3,1
+MA3231,2,Y3S1 MO,3,1
+MA3231V,2,Y3S1 MO V,3,1
+MA3132,4,Y3S2 Math,3,2
+MA4131,5,Y4S1 Math,4,1
+MA4231V,2,Y4 MO,4,1
+MA4132,5,Y4S2 Math,4,2
+MA5131,5,Y5S1 Math,5,1
+MA5231V,2,Y5 MO,5,1
+MA5132,5,Y5S2 Math,5,2
+MA6131,5,Y6S1 Math,6,1
+MA6132,5,Y6S2 Math,6,2
+CS1131,2,Y1 CS,1,2
+CS2231,2,Y2S1 CS,2,1
+CS2233,2,PSC,2,2
+CS3231,3,OOP I,3,1
+CS3232,2,IOT I,3,1
+CS3233,3,OOP II,3,2
+CS3234,2,IOT II,3,2
+CS4131,4,Andoid App Dev,4,1
+CS4231,2,IOT III,4,1
+CS4132,4,Data Analytics,4,2
+CS4133V,4,SoC Precursor Module,4,2
+CS4134V,4,DigiPen Precursor Module,4,2
+CS4232,4,Data Analytics,4,2
+CS5131,4,AI,5,1
+CS5132,4,Data Structures and Algo,5,2
+CS6131,4,Database Design,6,1
+CS6132,4,Computer Networking and Security,6,2
+BL1131,4,Y1 Bio,1,0
+BL2231,2,Y2S1 BO,2,1
+BL2232,2,Y2S2 BO,2,2
+BL2131,6,Y2 Bio,2,0
+BL3231,2,Y3S1 BO,3,1
+BL3232,2,Y3S2 BO,3,2
+BL3131,6,Y3 Bio,3,0
+BL4231,2,Y4S1 BO,4,1
+BL4232,2,Y4S2 BO,4,2
+BL4131,8,Y4 Bio,4,0
+BL5231,2,Y5S1 BO,5,1
+BL5232,2,Y5S2 BO,5,2
+BL5131,8,Y5 Bio,5,0
+BL6131,8,Y6 Bio,6,0
+CM1131,4,Y1 Chem,1,0
+CM2231,2,Y2S2 Chem O,2,2
+CM2131,6,Y2 Chem,2,0
+CM3231,2,Y3S1 Chem O,3,1
+CM3232,2,Y3S2 Chem O,3,2
+CM3131,6,Y3 Chem,3,0
+CM4131,4,Y4S1 Chem,4,1
+CM4231,2,Y4S1 Chem O,4,1
+CM4132,4,Y4S2 Chem,4,2
+CM4232,2,Y4S2 Chem O,4,2
+CM4234,2,Y4S1 Chemistry of Minerals and Gems,4,1
+CM4234,2,Y4S2 Chemistry of Minerals and Gems,4,2
+CM5131,4,Y5S1 Chem,5,1
+CM5231,2,Y5S1 Chem O,5,1
+CM5132,4,Y5S2 Chem,5,2
+CM5232,2,Y5S2 Chem O,5,2
+CM6131,4,Y6S1 Chem,6,1
+CM6132,4,Y6S2 Chem,6,2
+CM6231,2,Y6S1 Medicinal Chemistry,6,1
+CM6231,2,Y6S2 Medicinal Chemistry,6,2
+CM6232,2,Y6S1 Forensic Science,6,1
+CM6232,2,Y6S2 Forensic Science,6,2
+PC1131,4,Y1 Physics,1,0
+PC2131,6,Y2 Physics,2,0
+PC2231,2,Y2S2 PO,2,2
+PC3131,6,Y3 Physics,3,0
+PC3231,2,Y3S1 PO,3,1
+PC3232,2,Y3S2 PO,3,2
+PC4131,4,Y4S1 Physics,4,1
+PC4132,4,Y4S2 Physics,4,2
+PC4231,2,Y4S1 PO,4,1
+PC4232,2,Y4S2 PO,4,2
+PC5131,4,Y5S1 Physics,5,1
+PC5132,4,Y5S2 Physics,5,2
+PC5231,2,Y5S1 PO,5,1
+PC5233,2,Y5 Physics Consolidation Module,5,1
+PC5232,2,Y5S2 PO,5,2
+PC6131,4,Y6S1 Physics,6,1
+PC6132,4,Y6S2 Physics,6,2
+EL1131,8,Y1 English,1,0
+EL2131,6,Y2 English,2,0
+EL3131,6,Y3 English,3,0
+EL3231,2,Y3 Creative Writing Module,3,1
+EL4131,6,Y4 English - Critical Reading and Writing I,4,0
+EL5131,4,Y5 English - Critical Reading and Writing II,5,0
+EL5132,2,Y5 English - Language for Public Communication,5,0
+EL6131,2,Y6 English - Critical Reading and Writing III,6,1
+EL6132,2,Y6 English - Language for Personal and Professional Communication,6,0
+EL6133,2,Y6 English - Advanced Academic Reading and Writing,6,2
+EL6134,2,Y6 English - Understanding Discourse,6,2
+EL6135,2,Y6 English - Advanced Creative Writing,6,2
+EN2131,4,Y2 Lit,2,0
+EN3131,6,Y3 Lit,3,0
+EN4131,3,Y4S1 Lit,4,1
+EN4132,3,Y4S2 Lit,4,2
+EN5131,4,Y5S1 Lit,5,1
+EN5132,4,Y5S2 Lit,5,2
+EN6131,4,Y6S1 Lit,6,1
+EN6132,4,Y6S2 Lit,6,2
+CH1531,6,Y1 Higher Chinese,1,0
+CH2531,6,Y2 Higher Chinese,2,0
+CH3531,8,Y3 Higher Chinese,3,0
+CH4531,8,Y4 Higher Chinese,4,0
+CL1531,6,Y1 Normal Chinese,1,0
+CL2531,6,Y2 Normal Chinese,2,0
+CL3531,6,Y3 Normal Chinese,3,0
+CL4531,8,Y4 Normal Chinese,4,0
+CL5531,8,Y5 Normal Chinese,5,0
+MH1531,6,Y1 Higher Malay,1,0
+MH2531,6,Y2 Higher Malay,2,0
+MH3531,8,Y3 Higher Malay,3,0
+MH4531,8,Y4 Higher Malay,4,0
+ML1531,6,Y1 Normal Malay,1,0
+ML2531,6,Y2 Normal Malay,2,0
+ML3531,6,Y3 Normal Malay,3,0
+ML4531,8,Y4 Normal Malay,4,0
+ML5531,8,Y5 Normal Malay,5,0
+TH1531,6,Y1 Higher Tamil,1,0
+TH2531,6,Y2 Higher Tamil,2,0
+TH3531,8,Y3 Higher Tamil,3,0
+TH4531,8,Y4 Higher Tamil,4,0
+TL1531,6,Y1 Normal Tamil,1,0
+TL2531,6,Y2 Normal Tamil,2,0
+TL3531,6,Y3 Normal Tamil,3,0
+TL4531,8,Y4 Normal Tamil,4,0
+TL5531,8,Y5 Normal Tamil,5,0
+CL1231,3,Y1S1 3rd Lang Chinese,1,1
+CL1232,3,Y1S2 3rd Lang Chinese,1,2
+CL1233,2,The Culture behind Chinese Philology,1,1
+CL1234,2,The Math and Science Achievements of Ancient China,1,1
+CL1235,2,Learning Math and Science in Chinese,1,2
+CL2231,3,Y2S1 3rd Lang Chinese,2,1
+CL2232,3,Y2S2 3rd Lang Chinese,2,2
+CL3231,3,Y3S1 3rd Lang Chinese,3,1
+CL3232,3,Y3S2 3rd Lang Chinese,3,2
+CL4231,3,Y4S1 3rd Lang Chinese,4,1
+CL4232,3,Y4S2 3rd Lang Chinese,4,2
+CL4233,2,Appreciation of Chinese Language and Culture I,4,1
+CL4234,2,Appreciation of Chinese Language and Culture II,4,2
+CL5231,2,Topics on Chinese Literature,5,1
+CL5232,2,Basic Translation Skills,5,2
+FR1231,3,Y1S1 3rd Lang French,1,1
+FR1232,3,Y1S2 3rd Lang French,1,2
+FR2231,3,Y2S1 3rd Lang French,2,1
+FR2232,3,Y2S2 3rd Lang French,2,2
+FR3231,3,Y3S1 3rd Lang French,3,1
+FR3232,3,Y3S2 3rd Lang French,3,2
+FR4231,3,Y4S1 3rd Lang French,4,1
+FR4232,3,Y4S2 3rd Lang French,4,2
+JP1231,3,Y1S1 3rd Lang Japanese,1,1
+JP1232,3,Y1S2 3rd Lang Japanese,1,2
+JP2231,3,Y2S1 3rd Lang Japanese,2,1
+JP2232,3,Y2S2 3rd Lang Japanese,2,2
+JP3231,3,Y3S1 3rd Lang Japanese,3,1
+JP3232,3,Y3S2 3rd Lang Japanese,3,2
+JP4231,3,Y4S1 3rd Lang Japanese,4,1
+JP4232,3,Y4S2 3rd Lang Japanese,4,2
+ML1231,3,Y1S1 3rd Lang Malay,1,1
+ML1232,3,Y1S2 3rd Lang Malay,1,2
+ML2231,3,Y2S1 3rd Lang Malay,2,1
+ML2232,3,Y2S2 3rd Lang Malay,2,2
+ML3231,3,Y3S1 3rd Lang Malay,3,1
+ML3232,3,Y3S2 3rd Lang Malay,3,2
+ML4231,3,Y4S1 3rd Lang Malay,4,1
+ML4232,3,Y4S2 3rd Lang Malay,4,2
+HU1131,4,Y1 Integrated Humanities,1,0
+GE2131,2,Y2S1 Geography,2,1
+GE2132,2,Y2S2 Geography,2,2
+HU2131,2,Y2 Integrated Humanities,2,0
+HY2131,2,Y2S1 History,2,1
+HY2132,2,Y2S2 History,2,2
+GE3131,3,Y3S1 Geography,3,1
+GE3132,3,Y3S2 Geography,3,2
+HY3131,3,Y3S1 History,3,1
+HY3132,3,Y3S2 History,3,2
+EC4131,4,Y4S1 Econs,4,1
+EC4132,4,Y4S2 Econs,4,2
+GE4131,4,Y4S1 Geography,4,1
+GE4132,4,Y4S2 Geography,4,2
+HY4131,4,Y4S1 History,4,1
+HY4132,4,Y4S2 History,4,2
+EC5131,4,Y5S1 Econs,5,1
+EC5132,4,Y5S2 Econs,5,2
+GE5131,4,Y5S1 Geography,5,1
+GE5132,4,Y5S2 Geography,5,2
+HY5131,4,Y5S1 History,5,1
+HY5132,4,Y5S2 History,5,2
+EC6131,4,Y6S1 Econs,6,1
+EC6132,4,Y6S2 Econs,6,2
+GE6131,4,Y6S1 Geography,6,1
+GE6132,4,Y6S2 Geography,6,2
+HU6131,2,Y6S1 Humanities Capstone Project,6,1
+HU6131,2,Y6S2 Humanities Capstone Project,6,2
+HY6131,4,Y6S1 History,6,1
+HY6132,4,Y6S2 History,6,2
+MU1131,2,Y1S1 Music,1,1
+MU1131,2,Y1S2 Music,1,2
+MU2131,2,Y2S1 Music,2,1
+MU2132,2,Y2S2 Music,2,2
+MU3131,3,Y3S1 Music,3,1
+MU3132,3,Y3S2 Music,3,2
+MU4131,4,Y4S1 Music,4,1
+MU4132,4,Y4S2 Music,4,2
+MU5131,4,Y5S1 Music,5,1
+MU5132,4,Y5S2 Music,5,2
+MU6131,4,Y6S1 Music,6,1
+MU6132,4,Y6S2 Music,6,2
+AR1131,2,Y1S1 Art,1,1
+AR1131,2,Y1S2 Art,1,2
+AR2131,2,Y2S1 Art,2,1
+AR2132,2,Y2S2 Art,2,2
+AR3131,3,Y3S1 Art,3,1
+AR3132,3,Y3S2 Art,3,2
+AR4131,4,Y4S1 Art,4,1
+AR4132,4,Y4S2 Art,4,2
+AR5131,4,Y5S1 Art,5,1
+AR5132,4,Y5S2 Art,5,2
+AR6131,4,Y6S1 Art,6,1
+AR6132,4,Y6S2 Art,6,2
