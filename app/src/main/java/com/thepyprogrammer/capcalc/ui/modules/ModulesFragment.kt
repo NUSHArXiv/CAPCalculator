@@ -9,9 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.thepyprogrammer.capcalc.R
-import com.thepyprogrammer.capcalc.ui.home.HomeViewModel
 
-class HomeFragment : Fragment() {
+class ModulesFragment : Fragment() {
 
     private lateinit var moduleViewModel: ModuleViewModel
 
