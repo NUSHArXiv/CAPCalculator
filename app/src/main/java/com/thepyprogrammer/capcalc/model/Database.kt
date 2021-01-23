@@ -11,6 +11,7 @@ class Database internal constructor(moduleList: InputStream) : ArrayList<Module?
     }
     init {
         val sc = Scanner(moduleList)
+        sc.nextLine()
         while (sc.hasNext()) {
             val entry = sc.nextLine().split(",").toTypedArray()
             add(Module(entry[0].trim { it <= ' ' }, entry[1].trim { it <= ' ' }.toDouble(), entry[2].trim { it <= ' ' }, entry[3].trim { it <= ' ' }.toInt(), entry[4].trim { it <= ' ' }.toInt()))
