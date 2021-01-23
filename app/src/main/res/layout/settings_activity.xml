@@ -1,33 +1,42 @@
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
+
     <LinearLayout
+        android:id="@+id/settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:gravity="center"
-        android:id="@+id/settings" >
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal">
+
             <AutoCompleteTextView
+                android:id="@+id/autocomplete"
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/autocomplete"/>
+                android:layout_height="wrap_content" />
+
             <Spinner
+                android:id="@+id/CAP"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/CAP"
                 android:enabled="false"
-                android:hint="Insert CAP"/>
+                android:hint="Insert CAP" />
         </LinearLayout>
+
         <com.evrencoskun.tableview.TableView
             android:id="@+id/moduletable"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
     </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </ScrollView>
