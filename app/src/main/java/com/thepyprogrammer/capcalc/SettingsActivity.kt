@@ -21,8 +21,10 @@ class SettingsActivity : AppCompatActivity() {
                 .commit()
         }
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        
+        val caps = arrayListOf(5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.0)
 
-        val adapter = ArrayAdapter<Double>(this, android.R.layout.simple_spinner_item)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, caps)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         cap.adapter = adapter
 
@@ -31,6 +33,8 @@ class SettingsActivity : AppCompatActivity() {
             val inputStream: InputStream = resources.openRawResource(R.raw.data)
             database = Database(inputStream)
         }
+
+        
 
 
     }
