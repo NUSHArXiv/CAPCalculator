@@ -10,4 +10,12 @@ class Database internal constructor(moduleList: String) : ArrayList<Module?>() {
             add(Module(entry[0].trim { it <= ' ' }, entry[1].trim { it <= ' ' }.toDouble(), entry[2].trim { it <= ' ' }, entry[3].trim { it <= ' ' }.toInt(), entry[4].trim { it <= ' ' }.toInt()))
         }
     }
+
+    fun getFullNames(): ArrayList<String> {
+        val arr = ArrayList<String>()
+        for(module in this) {
+            if (module != null) arr.add("%s (%s)".format(module.code, module.name))
+        }
+        return arr
+    }
 }
