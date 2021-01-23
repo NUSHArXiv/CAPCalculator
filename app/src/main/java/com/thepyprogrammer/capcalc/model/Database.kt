@@ -1,8 +1,10 @@
 package com.thepyprogrammer.capcalc.model
 
+import java.io.InputStream
 import java.util.*
 
-class Database internal constructor(moduleList: String) : ArrayList<Module?>() {
+
+class Database internal constructor(moduleList: InputStream) : ArrayList<Module?>() {
     init {
         val sc = Scanner(moduleList)
         while (sc.hasNext()) {
