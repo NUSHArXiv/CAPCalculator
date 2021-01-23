@@ -75,21 +75,36 @@ class ModulesFragment : Fragment() {
                     TableLayout.LayoutParams.WRAP_CONTENT
                 )
 
-                val textview = TextView(activity);
-                textview.layoutParams = TableRow.LayoutParams(
+                val padding = resources.getDimensionPixelOffset(R.dimen.table_text_padding)
+
+                val codeView = TextView(activity);
+                codeView.layoutParams = TableRow.LayoutParams(
                     TableLayout.LayoutParams.WRAP_CONTENT,
                     R.dimen.rowHeight
                 ).apply {
                     gravity = Gravity.CENTER
                 }
-                textview.text = module.code;
-                val padding = resources.getDimensionPixelOffset(R.dimen.table_text_padding)
-                textview.setPadding(padding, padding, padding, padding)
-                textview.textAlignment = View.TEXT_ALIGNMENT_CENTER
-                textview.textSize = resources.getDimension(R.dimen.table_text_size)
+                codeView.text = module.code;
+                codeView.setPadding(padding, padding, padding, padding)
+                codeView.textAlignment = View.TEXT_ALIGNMENT_CENTER
+                codeView.textSize = resources.getDimension(R.dimen.table_text_size)
 
-                row.addView(textview);
+                row.addView(codeView);
 
+
+                val capView = TextView(activity);
+                capView.layoutParams = TableRow.LayoutParams(
+                    TableLayout.LayoutParams.WRAP_CONTENT,
+                    R.dimen.rowHeight
+                ).apply {
+                    gravity = Gravity.CENTER
+                }
+                capView.text = "$cap"
+                capView.setPadding(padding, padding, padding, padding)
+                capView.textAlignment = View.TEXT_ALIGNMENT_CENTER
+                capView.textSize = resources.getDimension(R.dimen.table_text_size)
+
+                row.addView(codeView);
             }
 
 
