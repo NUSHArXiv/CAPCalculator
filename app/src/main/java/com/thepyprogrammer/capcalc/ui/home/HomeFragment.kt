@@ -1,4 +1,4 @@
-package com.thepyprogrammer.selfintroduction.ui.home
+package com.thepyprogrammer.capcalc.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.thepyprogrammer.capcalc.R
-import com.thepyprogrammer.capcalc.ui.home.HomeViewModel
 
 class HomeFragment : Fragment() {
 
