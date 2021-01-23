@@ -27,6 +27,14 @@ class Database internal constructor(moduleList: String) : ArrayList<Module?>() {
         return arr
     }
 
+    fun getMCs(): ArrayList<Double> {
+        val arr = ArrayList<Double>()
+        for(module in this) {
+            if (module != null) arr.add(module.mc)
+        }
+        return arr
+    }
+
     fun getFullNames(): ArrayList<String> {
         val arr = ArrayList<String>()
         for(module in this) {
