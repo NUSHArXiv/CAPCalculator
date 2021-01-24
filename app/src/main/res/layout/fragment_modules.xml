@@ -10,79 +10,79 @@
     tools:context=".ui.home.HomeFragment"
     android:fillViewport="true">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
+            <AutoCompleteTextView
+                android:id="@+id/autocomplete"
+                android:layout_width="@dimen/autocomplete_width"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                >
+                android:hint="@string/autocomplete_hint" />
 
-                <AutoCompleteTextView
-                    android:id="@+id/autocomplete"
-                    android:layout_width="@dimen/autocomplete_width"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/autocomplete_hint" />
+            <Spinner
+                android:id="@+id/capselector"
+                android:layout_width="@dimen/spinner_width"
+                android:layout_height="@dimen/addSide"
+                android:enabled="false"
+                android:hint="@string/spinner_hint"
+                android:layout_marginLeft="@dimen/tableMargin"
+                android:layout_marginRight="@dimen/tableMargin"/>
 
-                <Spinner
-                    android:id="@+id/capselector"
-                    android:layout_width="@dimen/spinner_width"
-                    android:layout_height="@dimen/addSide"
-                    android:enabled="false"
-                    android:hint="@string/spinner_hint"
-                    android:layout_marginLeft="@dimen/tableMargin"
-                    android:layout_marginRight="@dimen/tableMargin"/>
-
-                <Button
-                    android:layout_width="@dimen/addSide"
-                    android:layout_height="match_parent"
-                    android:text="@string/add"
-                    android:padding="@dimen/add_padding"
-                    android:id="@+id/add"
-
-                    />
-            </LinearLayout>
-
-            <TableLayout
-                android:id="@+id/table"
-                android:layout_width="match_parent"
+            <Button
+                android:layout_width="@dimen/addSide"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/fragment_margin"
-                android:stretchColumns="*"> <!-- stretch the second column of the layout-->
+                android:text="@string/add"
+                android:padding="@dimen/add_padding"
+                android:id="@+id/add"
 
-                <!-- first row of the table layout-->
-                <TableRow
-                    android:id="@+id/firstRow"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                />
+        </LinearLayout>
 
-                    <!-- first element of the row-->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/rowHeight"
-                        android:background="@color/tableHeader"
-                        android:padding="@dimen/table_text_padding"
-                        android:text="@string/headcolumn1"
-                        android:textAlignment="center"
-                        android:textColor="@color/tableTextColor"
-                        android:textSize="@dimen/table_text_size"
-                        android:gravity="center"/>
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:stretchColumns="*"> <!-- stretch the second column of the layout-->
 
-            <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/rowHeight"
-                        android:background="@color/tableHeader"
-                        android:padding="@dimen/table_text_padding"
-                        android:text="@string/headColumn2"
-                        android:textAlignment="center"
-                        android:textColor="@color/tableTextColor"
-                        android:textSize="@dimen/table_text_size"
-                        android:gravity="center" />
+            <!-- first row of the table layout-->
+            <TableRow
+                android:id="@+id/firstRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- first element of the row-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/rowHeight"
+                    android:background="@color/tableHeader"
+                    android:padding="@dimen/table_text_padding"
+                    android:text="@string/headcolumn1"
+                    android:textAlignment="center"
+                    android:textColor="@color/tableTextColor"
+                    android:textSize="@dimen/table_text_size"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/rowHeight"
+                    android:background="@color/tableHeader"
+                    android:padding="@dimen/table_text_padding"
+                    android:text="@string/headColumn2"
+                    android:textAlignment="center"
+                    android:textColor="@color/tableTextColor"
+                    android:textSize="@dimen/table_text_size"
+                    android:gravity="center" />
+
             </TableRow>
         </TableLayout>
     </LinearLayout>
