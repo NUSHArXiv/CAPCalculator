@@ -26,7 +26,8 @@
                 android:id="@+id/autocomplete"
                 android:layout_width="@dimen/autocomplete_width"
                 android:layout_height="wrap_content"
-                android:hint="@string/autocomplete_hint" />
+                android:hint="@string/autocomplete_hint"
+                android:completionThreshold="0"/>
 
             <Spinner
                 android:id="@+id/capselector"
@@ -35,7 +36,7 @@
                 android:enabled="false"
                 android:hint="@string/spinner_hint"
                 android:layout_marginLeft="@dimen/tableMargin"
-                android:layout_marginRight="@dimen/tableMargin"/>
+                android:layout_marginRight="@dimen/tableMargin" />
 
             <Button
                 android:layout_width="@dimen/addSide"
