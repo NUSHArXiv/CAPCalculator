@@ -6,7 +6,7 @@
     <dimen name="table_text_padding">0dip</dimen>
     <dimen name="addSide">32dp</dimen>
     <dimen name="spinner_width">100dp</dimen>
-    <dimen name="autocomplete_width">250dp</dimen>
+    <dimen name="autocomplete_width">222dp</dimen>
     <dimen name="fragment_margin">10dp</dimen>
     <dimen name="add_padding">0dp</dimen>
 
