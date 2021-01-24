@@ -1,5 +1,6 @@
 package com.thepyprogrammer.capcalc.model
 
+import android.graphics.PointF.length
 import com.thepyprogrammer.capcalc.R
 import java.io.InputStream
 import java.util.*
@@ -47,6 +48,14 @@ class Database internal constructor(moduleList: InputStream) : ArrayList<Module?
         val arr = ArrayList<String>()
         for(module in this) {
             if (module != null) arr.add("%s (%s)".format(module.code, module.name))
+        }
+        return arr
+    }
+
+    fun getStrings(): ArrayList<String> {
+        val arr = ArrayList<String>()
+        this.forEach {
+            if(it != null) arr.add(arr.toString());
         }
         return arr
     }
