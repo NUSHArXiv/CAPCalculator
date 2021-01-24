@@ -69,11 +69,11 @@ class ModulesFragment : Fragment() {
         autocompleteAdapter?.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         autocomplete.setAdapter(autocompleteAdapter)
 
-        moduleViewModel.module.value = Module();
+        // moduleViewModel.module.value = Module();
 
         add.setOnClickListener{
             val module = database.get(autocomplete.listSelection)
-            module = autocomplete.selectSelection
+            // module = autocomplet
             val cap: Double = capselector.selectedItem as Double
             if(module != null) {
                 modules.put(module, cap)
