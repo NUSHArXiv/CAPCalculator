@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/settings"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:layout_marginTop="@dimen/fragment_margin"
-    tools:context=".ui.home.HomeFragment">
-    <ScrollView android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/settings"
-        android:fillViewport="true">
+    tools:context=".ui.home.HomeFragment"
+    android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,7 +73,7 @@
                         android:textSize="@dimen/table_text_size"
                         android:gravity="center"/>
 
-                    <TextView
+            <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/rowHeight"
                         android:background="@color/tableHeader"
@@ -84,9 +83,7 @@
                         android:textColor="@color/tableTextColor"
                         android:textSize="@dimen/table_text_size"
                         android:gravity="center" />
-
-                </TableRow>
-            </TableLayout>
-        </LinearLayout>
-    </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
