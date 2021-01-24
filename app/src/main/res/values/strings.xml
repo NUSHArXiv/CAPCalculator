@@ -115,4 +115,5 @@
     <string name="headColumn2">CAP</string>
     <string name="autocomplete_hint">Type in Module...</string>
     <string name="add">+</string>
+    <string name="corner">Corner</string>
 </resources>
