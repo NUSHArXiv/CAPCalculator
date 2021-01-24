@@ -17,13 +17,14 @@ import java.io.InputStream
 
 class ModulesFragment : Fragment() {
 
+    private var padding: Int = 0
     private lateinit var moduleViewModel: ModuleViewModel
 
     companion object {
         val modules = HashMap<Module, Double>()
     }
 
-    val padding = resources.getDimensionPixelOffset(R.dimen.table_text_padding)
+
     val caps = arrayListOf(5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.0)
 
     override fun onCreateView(
@@ -33,7 +34,7 @@ class ModulesFragment : Fragment() {
     ): View? {
         moduleViewModel = ViewModelProvider(this).get(ModuleViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_modules, container, false)
-        
+
         val capselector: Spinner = root.findViewById(R.id.capselector)
         val autocomplete: AutoCompleteTextView = root.findViewById(R.id.autocomplete)
         val add: Button = root.findViewById(R.id.add)
@@ -68,8 +69,11 @@ class ModulesFragment : Fragment() {
         autocompleteAdapter?.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         autocomplete.setAdapter(autocompleteAdapter)
 
+        moduleViewModel.module.value = Module();
+
         add.setOnClickListener{
             val module = database.get(autocomplete.listSelection)
+            module = autocomplete.selectSelection
             val cap: Double = capselector.selectedItem as Double
             if(module != null) {
                 modules.put(module, cap)
@@ -88,12 +92,7 @@ class ModulesFragment : Fragment() {
 
                 table.addView(row)
             }
-
-
         }
-
-
-
 
         return root
     }
