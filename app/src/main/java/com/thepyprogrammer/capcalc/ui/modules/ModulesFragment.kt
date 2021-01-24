@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.thepyprogrammer.capcalc.MainActivity
@@ -65,14 +66,16 @@ class ModulesFragment : Fragment() {
                     database.getFullNames()
             )
         }
-
         autocompleteAdapter?.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         autocomplete.setAdapter(autocompleteAdapter)
 
-        // moduleViewModel.module.value = Module();
+
+        autocomplete.setOnItemClickListener { parent, _, i, _ ->
+            moduleViewModel.module.value = database.getModuleByFullName(parent.getItemAtPosition(i).toString())
+        }
 
         add.setOnClickListener{
-            val module = database.get(autocomplete.listSelection)
+            val module = moduleViewModel.module.value
             // module = autocomplet
             val cap: Double = capselector.selectedItem as Double
             if(module != null) {
@@ -84,11 +87,8 @@ class ModulesFragment : Fragment() {
                         TableLayout.LayoutParams.WRAP_CONTENT
                 )
 
-
-
                 row.addView(formatTextView(TextView(activity), module.code));
                 row.addView(formatTextView(TextView(activity), "$cap"));
-
 
                 table.addView(row)
             }
@@ -107,7 +107,8 @@ class ModulesFragment : Fragment() {
         view.setPadding(padding, padding, padding, padding)
         view.text = text
         view.textAlignment = View.TEXT_ALIGNMENT_CENTER
-        view.textSize = resources.getDimension(R.dimen.table_text_size)
+        // this.context?.let { text.setTextColor(ContextCompat.getColor(it, R.color.tableTextColor)) }
+        view.textSize = resources.getDimensionPixelSize(R.dimen.table_text_size).toFloat()
         return view
     }
 }
