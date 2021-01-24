@@ -7,8 +7,7 @@ import com.thepyprogrammer.capcalc.model.Module
 
 class ModuleViewModel : ViewModel() {
 
-    private val _module = MutableLiveData<Module>().apply {
+    val module = MutableLiveData<Module>().apply {
         value = null
     }
-    val module: LiveData<Module> = _module
 }
