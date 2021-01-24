@@ -5,9 +5,9 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="table_text_padding">0dip</dimen>
     <dimen name="addSide">32dp</dimen>
-    <dimen name="spinner_width">150dp</dimen>
+    <dimen name="spinner_width">100dp</dimen>
     <dimen name="tableMargin">5dp</dimen>
-    <dimen name="autocomplete_width">200dp</dimen>
+    <dimen name="autocomplete_width">250dp</dimen>
     <dimen name="table_text_size">14sp</dimen>
     <dimen name="rowHeight">50dp</dimen>
     <dimen name="fragment_margin">10dp</dimen>
