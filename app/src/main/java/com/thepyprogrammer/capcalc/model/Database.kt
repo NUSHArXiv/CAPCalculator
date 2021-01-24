@@ -60,4 +60,12 @@ class Database internal constructor(moduleList: InputStream) : ArrayList<Module?
         return arr
     }
 
+    fun getModuleByFullName(fullName: String): Module? {
+        val arr = getFullNames();
+        for(i in 0..arr.size) {
+            if(arr[i] == fullName) return this[i]
+        }
+        return null
+    }
+
 }
