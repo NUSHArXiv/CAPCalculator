@@ -9,6 +9,7 @@ import android.widget.*
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.evrencoskun.tableview.TableView
 import com.thepyprogrammer.capcalc.MainActivity
 import com.thepyprogrammer.capcalc.R
 import com.thepyprogrammer.capcalc.model.Database
@@ -39,7 +40,7 @@ class ModulesFragment : Fragment() {
         val capselector: Spinner = root.findViewById(R.id.capselector)
         val autocomplete: AutoCompleteTextView = root.findViewById(R.id.autocomplete)
         val add: Button = root.findViewById(R.id.add)
-        val table: TableLayout = root.findViewById(R.id.table)
+        val table: TableView = root.findViewById(R.id.table)
         
         val spinnerAdapter = this.context?.let {
             ArrayAdapter(
