@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">CAP Calculator</string>
+
     <!-- Settings Activity Title -->
     <string name="title_activity_settings">Settings</string>
 
@@ -116,4 +117,7 @@
     <string name="autocomplete_hint">Type in Module...</string>
     <string name="add">+</string>
     <string name="corner">Corner</string>
+
+
+
 </resources>
