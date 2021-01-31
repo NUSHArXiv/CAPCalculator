@@ -22,10 +22,6 @@ class ModulesFragment : Fragment() {
     private var padding: Int = 0
     private lateinit var moduleViewModel: ModuleViewModel
 
-    companion object {
-        val modules = HashMap<Module, Double>()
-    }
-
 
     val caps = arrayListOf(5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.0)
 
@@ -80,7 +76,7 @@ class ModulesFragment : Fragment() {
             // module = autocomplet
             val cap: Double = capselector.selectedItem as Double
             if(module != null) {
-                modules.put(module, cap)
+                database.modules.put(module, cap)
 
                 val row = TableRow(activity)
                 row.layoutParams = TableLayout.LayoutParams(
