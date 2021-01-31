@@ -10,6 +10,9 @@ class Database internal constructor(moduleList: InputStream) : ArrayList<Module?
     companion object {
         var currentOccurence: Database? = null
     }
+
+    val modules = HashMap<Module, Double>()
+
     init {
         val sc = Scanner(moduleList)
         sc.nextLine()
