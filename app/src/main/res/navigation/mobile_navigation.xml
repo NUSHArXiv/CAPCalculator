@@ -13,12 +13,6 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_promo"
-        android:name="com.thepyprogrammer.capcalc.ui.promo.PromoFragment"
-        android:label="@string/title_promo"
-        tools:layout="@layout/fragment_promo" />
-
-    <fragment
         android:id="@+id/navigation_modules"
         android:name="com.thepyprogrammer.capcalc.ui.modules.ModulesFragment"
         android:label="@string/title_modules"
