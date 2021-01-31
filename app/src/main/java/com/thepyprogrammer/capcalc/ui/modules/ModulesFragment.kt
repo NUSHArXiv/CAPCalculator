@@ -6,14 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.evrencoskun.tableview.TableView
-import com.thepyprogrammer.capcalc.MainActivity
 import com.thepyprogrammer.capcalc.R
 import com.thepyprogrammer.capcalc.model.Database
-import com.thepyprogrammer.capcalc.model.Module
 import java.io.InputStream
 
 
