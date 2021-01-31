@@ -107,8 +107,8 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
     <string name="title_home">Home</string>
     <string name="title_modules">Select Your Modules...</string>
     <string name="spinner_hint">Insert CAP</string>
@@ -117,7 +117,6 @@
     <string name="autocomplete_hint">Type in Module...</string>
     <string name="add">+</string>
     <string name="corner">Corner</string>
-    <string name="title_promo">Promo CAP</string>
 
 
 </resources>
