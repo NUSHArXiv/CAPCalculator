@@ -33,7 +33,6 @@ class ModulesFragment : Fragment() {
         val capselector: Spinner = root.findViewById(R.id.capselector)
         val autocomplete: AutoCompleteTextView = root.findViewById(R.id.autocomplete)
         val add: Button = root.findViewById(R.id.add)
-        val table: TableView = root.findViewById(R.id.table)
         
         val spinnerAdapter = this.context?.let {
             ArrayAdapter(
@@ -84,7 +83,7 @@ class ModulesFragment : Fragment() {
                 row.addView(formatTextView(TextView(activity), module.code));
                 row.addView(formatTextView(TextView(activity), "$cap"));
 
-                table.addView(row)
+                // table.addView(row)
             }
         }
 
