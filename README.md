@@ -1,4 +1,6 @@
 # CAPCalculator
-An application to calculate Cumulative Average Point (CAP).
+**Done by Prannaya Gupta**
 
-Made as part of CS4131 Module at NUS High School.
+Part of Lab 2 in the CS4131 Module at NUS High School
+
+An application to calculate Cumulative Average Point (CAP) at NUS High School.
